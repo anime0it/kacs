@@ -1,5 +1,5 @@
 #update/install
-sudo pacman -Syu unzip bspmw sxhkd picom polybar alacritty rofi nitrogen 
+sudo pacman -Syu unzip bspwm sxhkd picom polybar alacritty rofi nitrogen ly 
 #copy
 unzip k-bin.zip
 mkdir ~/.config
@@ -16,3 +16,4 @@ rm -r sxhkd
 rm -r picom 
 rm -r polybar 
 rm -r rofi
+systemctl enable ly
