@@ -1,5 +1,5 @@
 #update/install
-sudo pacman -Syu unzip bspwm sxhkd picom polybar alacritty rofi nitrogen ly 
+sudo pacman -Syu unzip xorg bspwm sxhkd picom polybar alacritty rofi nitrogen ly 
 #copy
 unzip k-bin.zip
 mkdir ~/.config
